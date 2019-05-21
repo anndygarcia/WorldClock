@@ -1,0 +1,36 @@
+body {
+    background-color: #D4E6F1;
+    font-family: 'Pacifico', cursive;
+    color: aliceblue;
+    text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
+    text-align: center;
+}
+
+.carousel-caption {
+    font-size: 1.5rem;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px #FFFFFF, 0 0 5px black;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+@media (max-width: 991.99px) {
+    img {
+        width: 100% !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .carousel-control-next {
+        margin-right: 20%;
+    }
+    .carousel-control-prev {
+        margin-left: 20%;
+    }
+    img {
+        width: 60% !important;
+        margin-left: 20%;
+    }
+}
