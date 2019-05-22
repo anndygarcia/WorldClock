@@ -35,4 +35,4 @@ watchTokio(9.0);
 let interMex = setInterval(watchCdmx, 1000, -5.0);
 let interStklm = setInterval(watchStcklm, 1000, 2.0);
 let interBali = setInterval(watchBali, 1000, 8.0);
-let interTokio = setInterval(watchTokio, 1000, 9.0@);
+let interTokio = setInterval(watchTokio, 1000, 9.0);
