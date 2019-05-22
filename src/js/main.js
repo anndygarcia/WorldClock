@@ -27,8 +27,7 @@ const watchTokio = (offset) => {
 };
 
 
-watchCdmx(-5.0)
-let intervale = setIntervale(watchCdmx(-5.0), 1000);
+watchCdmx(-5.0);
 watchStcklm(2.0);
 watchBali(8.0);
 watchTokio(9.0);
