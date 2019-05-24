@@ -1,4 +1,4 @@
-window.calculateTimezone = {
+calculateTimezone = {
     updateHour: (offset) => {
         let date = new Date(); // Generate time
         let utc = date.getTime() + (date.getTimezoneOffset() * 60000); // Generate UTC
@@ -9,7 +9,7 @@ window.calculateTimezone = {
 
         if(hour < 10) {
             hour = "0" + hour
-        };
+        }; // Add a "0" if hours are one digit
         if (minutes < 10) {
             minutes = "0" + minutes
         }; // Add a "0" if minutes are one digit
