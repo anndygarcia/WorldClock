@@ -26,12 +26,6 @@ const watchTokio = (offset) => {
     document.getElementById('tokio-seconds').textContent = date[2];
 };
 
-
-watchCdmx(-5.0);
-watchStcklm(2.0);
-watchBali(8.0);
-watchTokio(9.0);
-
 let interMex = setInterval(watchCdmx, 1000, -5.0);
 let interStklm = setInterval(watchStcklm, 1000, 2.0);
 let interBali = setInterval(watchBali, 1000, 8.0);
